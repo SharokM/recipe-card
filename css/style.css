@@ -1,0 +1,197 @@
+body {
+  background: #daf7f6;
+  color: #3b3b3b;
+  font-family: "Open Sans", sans-serif;
+  line-height: 16px;
+  font-size: 12px;
+}
+
+header {
+  background: white;
+  text-align: center;
+}
+
+h1 {
+  display: inline-block;
+  color: #f16059;
+  font-size: 48px;
+  padding: 40px 0;
+  margin: 0;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+
+header img {
+  margin-right: 16px;
+}
+
+main {
+  width: 1000px;
+  margin: auto;
+}
+
+.card {
+  margin: 20px 0;
+}
+
+.image {
+  float: left;
+  width: 500px;
+  height: 573px;
+}
+
+.recipe {
+  background: white;
+  width: 500px;
+  height: 572px;
+  padding: 0px;
+  float: left;
+  padding: 0;
+  margin-top: 20px;
+  /* margin-top: 30px; */
+  box-sizing: border-box;
+}
+
+#cookies .image {
+  background: url("file:///Users/sharokmcdonnaugh/Desktop/recipe-card-starter-code/img/gluten-free-sugar-cookies.jpg");
+  background-size: cover;
+  margin-top: 19px;
+}
+
+#pesto .image {
+  background: url("file:///Users/sharokmcdonnaugh/Desktop/recipe-card-starter-code/img/nut-free-pesto.jpg");
+  background-size: cover;
+  margin-top: 19px;
+}
+
+#salad .image {
+  background: url("file:///Users/sharokmcdonnaugh/Desktop/recipe-card-starter-code/img/watermelon-salad.jpg");
+  background-size: cover;
+  margin-top: 19px;
+}
+
+.recipe h2 {
+  font-size: 24px;
+  line-height: 29px;
+  margin-top: 0px;
+  color: #f16059;
+  padding-left: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*******PREP TIME COOK BOXES*******/
+
+.time {
+  border-top: 1px solid #3b3b3b; /***try remove***/
+  border-bottom: 1px solid #3b3b3b; /***try remove***/
+  overflow: auto; /***try remove***/
+  margin-bottom: 15px; /***try remove***/
+  width: 480px; /***try 33.3%***/
+  display: inline-flex; /***try remove***/
+  text-transform: uppercase;
+  float: left;
+  padding-left: 0px; /***try 6***/
+  margin-right: 10px; /***try remove***/
+  margin-left: 10px; /***try remove***/
+  box-sizing: border-box;
+}
+
+.time .prep {
+  float: left;
+  padding-left: 6px;
+  text-transform: uppercase;
+  border-right: 1px solid #3b3b3b;
+  border-left: 1px solid black;
+  width: 33.3333%;
+  box-sizing: border-box;
+}
+
+.time .cook {
+  margin-bottom: 10px;
+  float: left;
+  width: 33.3333%;
+}
+
+.time .total {
+  border-right: 1px solid #3b3b3b;
+  float: left;
+  width: 33.3333%;
+  border-left: 1px solid #3b3b3b;
+}
+
+.time img {
+  width: 15px;
+  height: auto;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.time-details {
+  display: inline-block;
+}
+
+.time strong {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+}
+
+.description {
+  margin-left: 10px;
+}
+
+.ingredients h3 {
+  margin-left: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #f16059;
+  padding: 10px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  text-transform: uppercase;
+}
+
+.directions h3 {
+  margin-left: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #f16059;
+  padding: 10px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  text-transform: uppercase;
+}
+
+.columns {
+  overflow: auto;
+}
+
+.directions {
+  float: left;
+  width: 240px;
+  margin-left: 10px;
+}
+
+.ingredients {
+  float: left;
+  width: 205px;
+}
+
+.ingredients ul li {
+  padding-left: 5px;
+  line-height: 24px;
+  list-style: square;
+}
+
+.directions ol li {
+  padding-left: 5px;
+  line-height: 22px;
+}
+
+/*hello skill crush - tech supp
+slack - tech supp
+question - curriculum
+live q&a - developer - learn the skills - choose topic, time zone, over zoom*/ 
+mentorship - 
+
+bonus skills, tech skills, freelancing, wordpress dev, php, ruby, masterclasses (once finished full track), skillcrush community - slack.
+
