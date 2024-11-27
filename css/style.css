@@ -53,19 +53,19 @@ main {
 }
 
 #cookies .image {
-  background: url("file:///Users/sharokmcdonnaugh/Desktop/recipe-card-proj/img/gluten-free-sugar-cookies.jpg");
+  background: url("../img/gluten-free-sugar-cookies.jpg");
   background-size: cover;
   margin-top: 19px;
 }
 
 #pesto .image {
-  background: url("file:///Users/sharokmcdonnaugh/Desktop/recipe-card-proj/img/nut-free-pesto.jpg");
+  background: url("../img/nut-free-pesto.jpg");
   background-size: cover;
   margin-top: 19px;
 }
 
 #salad .image {
-  background: url("file:///Users/sharokmcdonnaugh/Desktop/recipe-card-proj/img/watermelon-salad.jpg");
+  background: url("../img/watermelon-salad.jpg");
   background-size: cover;
   margin-top: 19px;
 }
